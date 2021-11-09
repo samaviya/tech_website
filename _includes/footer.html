@@ -1,0 +1,40 @@
+<footer class="app-footer">
+  <div>
+    <h2>Quick Links</h2>
+    <ul>
+      {% for item in site.data.footerNavigation.options %}
+      <li><a href="{{ item.url }}" {% if page.url == item.url %} {% endif %}>{{ item.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+  <div>
+    <h2>TECH-NIH</h2>
+    <ul>
+      {% for item in site.data.footerNavigation.techNIH %}
+      <li>{{ item.text }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+  <div>
+    <h2>Get in touch</h2>
+    <ul>
+      {% for item in site.data.footerNavigation.getInTouch %}
+      <li> <i class="{{item.icon}}"></i> {{ item.text }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+  <div>
+    <h2>Connect</h2>
+    <div style="padding: 0;">
+      {% for item in site.data.footerNavigation.connect %}
+      <span style="color: #668b22;"> <i class="{{ item.icon }}"></i></span>
+      {% endfor %} 
+      
+    </div>
+    <div style="position: relative;">
+      <a href="/">
+        <img src="/assets/images/site-logo-transparent.png" class="footer-logo" alt="Site-logo">
+      </a>
+    </div>
+  </div>
+</footer>

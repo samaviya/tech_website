@@ -1,0 +1,17 @@
+<nav class="navbar">
+  <div class="nav-left">
+    <a href="/">
+      <img src="/assets/images/site-logo.jpg" class="logo" alt="Site-logo">
+    </a>
+  </div>
+  <div class="nav-right">
+    <div style="padding-top:20px;">
+      {% for item in site.data.navigation.options %}
+      <a href="{{ item.url }}" {% if page.url == item.url %} class="active-link" {% endif %}>{{ item.title }}</a>
+      {% endfor %}
+    </div>
+    <div>
+      <img src="/assets/images/nih-logo.png" class="logo-sm" alt="Site-logo">
+    </div>
+  </div>
+</nav>
