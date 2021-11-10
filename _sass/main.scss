@@ -1,0 +1,91 @@
+body {
+  margin: 0 !important;
+}
+
+.container {
+  margin: 10px auto;
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+
+  .active-link {
+    color: var(--primaryText) !important;
+  }
+
+  .nav-left {
+    a {
+      padding: 0px 5px;
+    }
+  }
+
+  .nav-right {
+    padding-top: 10px;
+    display: flex;
+    a {
+      text-decoration: none;
+      color: #000;
+      padding: 0px 17px;
+      font-size: 1.3em;
+    }
+  }
+
+  .logo {
+    width: 6em;
+  }
+
+  .logo-sm {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 3em;
+  }
+}
+
+.app-footer {
+  background-color: var(--greenTint);
+  display: flex;
+  justify-content: space-around;
+  text-align: left;
+  padding-left: 20px;
+  h2 {
+    color: var(--primaryText);
+    font-size: 1.1rem;
+    padding-bottom: 10px;
+  }
+  ul {
+    padding: 5px 0px;
+    list-style-type:none;
+    margin-bottom: 0px;
+    color: var(--primaryText);
+    li {
+      padding: 3px 0px;
+      list-style-type: none;
+    }
+    a {
+      text-decoration: none;
+      color: var(--primaryText);
+    }
+    a:hover {
+      font-weight: bold;
+    }
+  }
+  div {
+    width: 100%;
+    padding: 10px;
+  }
+
+  span {
+    padding: 0px 8px;
+    font-size: 1.4rem;
+  }
+
+  .footer-logo {
+    width: 7em;
+    position: absolute;
+    left: 80px;
+    margin-top: 24px;
+  }
+}
