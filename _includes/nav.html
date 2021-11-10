@@ -1,17 +1,29 @@
-<nav class="navbar">
-  <div class="nav-left">
-    <a href="/">
-      <img src="/assets/images/site-logo.jpg" class="logo" alt="Site-logo">
-    </a>
-  </div>
-  <div class="nav-right">
-    <div style="padding-top:20px;">
-      {% for item in site.data.navigation.options %}
-      <a href="{{ item.url }}" {% if page.url == item.url %} class="active-link" {% endif %}>{{ item.title }}</a>
-      {% endfor %}
-    </div>
-    <div>
-      <img src="/assets/images/nih-logo.png" class="logo-sm" alt="Site-logo">
-    </div>
-  </div>
-</nav>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nav-left">
+        <a href="/">
+          <img src="/assets/images/site-logo.jpg" class="logo" alt="Site-logo">
+        </a>
+      </div>
+      <div class="nav-right">
+        <div>
+          {% for item in site.data.navigation.options %}
+          <a href="{{ item.url }}" {% if page.url == item.url %} class="active-link" {% endif %}>{{ item.title }}</a>
+          {% endfor %}
+        </div>
+        <div>
+          <img src="/assets/images/nih-logo.png" class="app-logo-sm" alt="Site-logo">
+        </div>
+      </div>
+    </nav>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+  </body>
+</html>
