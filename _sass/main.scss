@@ -1,5 +1,14 @@
 body {
   margin: 0 !important;
+  color: var(--darkText);
+}
+
+* {
+  font-family: 'Epilogue', sans-serif;
+}
+
+h2 {
+  font-weight: 700;
 }
 
 .container {
@@ -11,6 +20,8 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 0px;
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.03);
+  margin-bottom: 2.5rem;
 
   .active-link {
     color: var(--primaryText) !important;
@@ -23,18 +34,17 @@ body {
   }
 
   .nav-right {
-    padding-top: 10px;
     display: flex;
     a {
       text-decoration: none;
       color: #000;
       padding: 0px 17px;
-      font-size: 1.3em;
+      font-size: 1.2em;
     }
   }
 
   .logo {
-    width: 6em;
+    width: 5.5em;
   }
 
   .app-logo-sm {
@@ -47,10 +57,11 @@ body {
 .app-footer {
   background-color: var(--greenTint);
   display: flex;
+  padding-top: 30px;
   justify-content: space-around;
   text-align: left;
   padding-left: 20px;
-  h2 {
+  h3 {
     color: var(--primaryText);
     font-size: 1.1rem;
     padding-bottom: 10px;
@@ -87,5 +98,167 @@ body {
     position: absolute;
     left: 80px;
     margin-top: 24px;
+  }
+}
+
+.slide-image {
+  height: 370px  !important;
+  border-radius: 10px !important;
+}
+
+.slide-image-1 {
+  background-image: linear-gradient(90deg, rgba(172, 232, 62, 0.5) 29.17%, rgba(141, 206, 23, 0.0514706) 78.13%, rgba(138, 203, 19, 0) 100%), url('/assets/images/slide1.png');
+  background-size: cover;
+  background-position: 0px -96px;
+}
+
+.slide-image-2 {
+  background-image: linear-gradient(270deg, rgba(172, 232, 62, 0.5) 29.17%, rgba(141, 206, 23, 0.0514706) 78.13%, rgba(138, 203, 19, 0) 100%), url('/assets/images/slide2.png');
+  background-size: cover;
+  background-position: 0px -226px !important;
+}
+
+.slide-image-3 {
+  background-image: linear-gradient(270deg, rgba(172, 232, 62, 0.5) 29.17%, rgba(141, 206, 23, 0.0514706) 78.13%, rgba(138, 203, 19, 0) 100%), url('/assets/images/slide3.png');
+  background-size: cover;
+  background-position: 0px -96px;
+}
+
+.carousel-caption {
+  left: 6% !important;
+  right: 6% !important;
+  .text-left {
+    text-align: left !important;
+  }
+  .text-right {
+    text-align: right !important;
+  }
+  h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: white;
+  }
+  p {
+    font-size: 1.1rem;
+    font-weight: 500;
+  }
+}
+
+.carousel-indicators [data-bs-target] {
+  box-sizing: content-box;
+  flex: 0 1 auto;
+  width: 12px;
+  height: 12px;
+  padding: 0;
+  margin-right: 15px;
+  margin-left: 15px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  opacity: .5;
+  transition: opacity .6s ease;
+  border-radius: 100%; // /* add border-radius */
+}
+
+.carousel-indicators .active {
+  opacity: 1;
+  width: 16px;
+  margin-top: -2px;
+  height: 16px;
+}
+
+.carousel-control-next-icon {
+  background-image: url('/assets/images/carousel-next.svg') !important;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+.carousel-control-next-icon:hover {
+  width: 35px;
+}
+
+.carousel-control-prev, .carousel-control-next {
+  width: 6% !important;
+  color: #fff !important; 
+  font-weight: 600 !important;
+  text-decoration: none;
+  opacity: .9;
+}
+
+.carousel-control-next {
+  font-size: 1.2rem;
+}
+
+.app-card {
+  position: relative;
+  width: 400px;
+  height: 380px;
+  box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(75px);
+  border-radius: 20px;
+  margin: auto;
+  padding: 45px 40px;
+  text-align: left;
+  overflow: hidden;
+
+  img {
+    width: 80px;
+    position: absolute;
+    bottom: -17px;
+    right: -10px;
+  }
+
+  svg.vertical {
+    position: absolute;
+    right: 20px;
+    top: 0px;
+  }
+
+  svg.horizon {
+    position: absolute;
+    left: 0px;
+    bottom: 20px;
+  }
+}
+
+.vision-card {
+  background: #F5FFE7;
+  h3 {
+    color: #A9C96E;
+    font-size: 2.5rem;
+    font-weight: 200;
+    margin-bottom: 2px;
+  }
+
+  p {
+    color: #A9C96E;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 25.88px;
+  }
+}
+
+.mission-card  {
+  background: #A9C96E;
+
+  h3 {
+    color: #F5FFE7;
+    font-size: 2.5rem;
+    font-weight: 200;
+    margin-bottom: 2px;
+  }
+
+  p {
+    color: #F5FFE7;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 25.88px;
   }
 }
