@@ -1,3 +1,43 @@
-.red {
-  color: red;
+.About_us_main{
+  background-image: url('/assets/images/background_img.png');
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: auto; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  width: 100%;
+}
+.About_us{
+  text-align: left;
+}
+.About_us_Img img{
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.Doted_image img{
+  position: unset;
+    margin-bottom: -233px;
+    width: 650px;
+}
+@media (max-width: 767px)
+ {
+   .Doted_image img{
+     display: none;
+   }
+  }
+.round_images img{
+  border: 1px solid transparent;
+  border-radius: 50%;
+  max-width: 200px;
+  height: 200px;
+}
+.round_images p{
+margin-top: 15px!important;
+}
+
+.Structure_div{
+  text-align: left;
+}
+.Organogram_Div{
+  text-align: left;
 }
