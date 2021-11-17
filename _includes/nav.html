@@ -7,21 +7,26 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
   </head>
   <body>
-    <nav class="container-lg navbar">
+    <nav class="container-lg navbar navbar-expand-lg navbar-light">
       <div class="nav-left">
         <a href="/">
           <img src="/assets/images/site-logo.jpg" class="logo" alt="Site-logo">
         </a>
       </div>
-      <div class="nav-right">
-        <div style="padding-top: 10px">
+      <button class="navbar-toggler" style="box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.03); margin-right: 15px;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto mb-2 mb-lg-0" style="padding-right: 12px;">
           {% for item in site.data.navigation.options %}
-          <a href="{{ item.url }}" {% if page.url == item.url %} class="active-link" {% endif %}>{{ item.title }}</a>
+          <li class="nav-item">
+            <a href="{{ item.url }}" {% if page.url == item.url %} class="active-link" {% endif %}>{{ item.title }}</a>
+          </li>
           {% endfor %}
-        </div>
-        <div>
-          <img src="/assets/images/nih-logo.png" class="app-logo-sm" alt="Site-logo">
-        </div>
+          <li class="nav-item pt-0 d-none d-lg-block">
+            <img src="/assets/images/nih-logo.png" class="app-logo-sm" alt="Site-logo">
+          </li>
+        </ul>
       </div>
     </nav>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
