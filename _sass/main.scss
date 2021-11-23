@@ -863,3 +863,27 @@ h2 {
 .check_styling{
   color: blue;
 }
+.Message{
+  text-align: left;
+}
+.Message h3{
+  font-size: 18px;
+  font-weight: 700;
+}
+.card .Message_img img{
+ border-radius: 50%;
+ border: 1px solid gray;
+}
+.card{
+  background-color: #F1FFD8;
+  padding: 15px;
+  border-radius: 15px;
+}
+.card .text_message p{
+  text-align: left;
+}
+.card .text_message h4{
+  text-align: right;
+  font-size: 13px;
+  font-weight: bold;
+}
