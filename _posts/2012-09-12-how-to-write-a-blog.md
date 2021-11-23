@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Welcome to Jekyll!"
+title: "First Post on our blog!"
 ---
 ![image-here](/assets/images/3.png){:class="img-responsive"}
 # Welcome
