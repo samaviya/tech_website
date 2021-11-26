@@ -126,7 +126,7 @@ layout: default
 
 
 
-<div class="container">
+<!-- <div class="container">
 <div class="container_organogram">
 <ul id="myUL">
   <li>
@@ -163,16 +163,6 @@ layout: default
 </ul>
 </div>
 </div>
-
-
-
-
-
-
-
-
-
-
     </div>
 <script>
 var toggler = document.getElementsByClassName("caret");
@@ -184,4 +174,42 @@ for (i = 0; i < toggler.length; i++) {
     this.classList.toggle("caret-down");
   });
 }
-</script>
+</script> -->
+
+
+
+<!-- ===========dummy organogram in html=========== -->
+<div class="Ocontent" style="margin-bottom:300px;">
+  
+  <figure class="org-chart cf">
+    <ul class="administration">
+      <li>					
+        <ul class="director">
+          <li>
+            <a href="#"><span><img src="/assets/images/slide1.png" width="100px" height="100px"></span></a>
+            <ul class="subdirector">
+            </ul>
+            <ul class="departments cf">								
+              <li><a href="#"><span><img src="/assets/images/slide1.png" width="100px" height="100px"></span></a></li>
+              <li class="department dep-a">
+                <a href="#"><span>Department A</span></a>
+              </li>
+              <li class="department dep-b">
+                <a href="#"><span>Department B</span></a>
+              </li>
+              <li class="department dep-c">
+                <a href="#"><span>Department C</span></a>
+              </li>
+              <li class="department dep-d">
+                <a href="#"><span>Department D</span></a>
+              </li>
+              <li class="department dep-e">
+                <a href="#"><span>Department E</span></a>
+              </li>
+            </ul>
+          </li>
+        </ul>	
+      </li>
+    </ul>			
+  </figure>
+</div>
