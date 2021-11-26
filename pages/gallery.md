@@ -1,5 +1,5 @@
 ---
-permalink: /gallery
+permalink: /gallery1
 title: NIH Tech
 layout: gallery
 ---
