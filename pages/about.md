@@ -3,7 +3,9 @@ permalink: /about
 title: NIH Tech
 layout: default
 ---
-
+{% for item in site.collections.gallerypics %}
+<img src={{item.4.png}}></img>
+{% endfor %}
  <div class="About_us_main">
       <div class="container">
         <div class="row">
@@ -12,7 +14,7 @@ layout: default
               Who Are We?
             </h2>
             <p>
-              Transformation & Excellence Center for Health (TECH) has been functioning as a fundamental and 
+              Transformation & Excellence Centre for Health (TECH) has been functioning as a fundamental and 
               significant component of the National Institute of Health.It was inaugurated by the Special Assistant 
               to the Prime Minister on National Health Services, Regulations and Coordination, Dr Faisal Sultan in February
                2021. It is involved in transforming the technical aspects of public health-related activities to improve the
@@ -121,4 +123,65 @@ layout: default
   </p>
 </div>
 
+
+
+
+<!-- <div class="container">
+<div class="container_organogram">
+<ul id="myUL">
+  <li>
+  <span class="caret" style="display:flex">
+  <img src="/assets/images/slide1.png">
+  <div style="height:1px; width:150px; border:1px solid rgba(118, 161, 38, 0.5); text-align:center; margin-top:45px;" class="text-center"></div>
+  </span>
+    <ul class="nested">
+      <li style="margin-top: -96px; margin-left: 215px;">
+      <span class="caret" style="display:flex">
+        <img src="/assets/images/slide1.png">
+        <div style="height:1px; width:150px; border:1px solid rgba(118, 161, 38, 0.5); text-align:center; margin-top:45px;" class="text-center"></div>
+      </span>
+        <ul class="nested" style="margin-top: -95px; margin-left: 215px;">
+          <li>
+            <span class="caret mt-4">
+            <img src="/assets/images/slide1.png">
+            </span>
+          </li>
+          <li>
+            <span class="caret mt-4">
+            <img src="/assets/images/slide1.png" style="margin-top:10px">
+            </span>
+          </li>
+          <li>
+            <span class="caret mt-4">
+            <img src="/assets/images/slide1.png" style="margin-top:10px">
+            </span>
+          </li>
+        </ul>
+      </li>  
+    </ul>
+  </li>
+</ul>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
     </div>
+<script>
+var toggler = document.getElementsByClassName("caret");
+var i;
+
+for (i = 0; i < toggler.length; i++) {
+  toggler[i].addEventListener("click", function() {
+    this.parentElement.querySelector(".nested").classList.toggle("active");
+    this.classList.toggle("caret-down");
+  });
+}
+</script> -->
