@@ -63,10 +63,10 @@ layout: default
         TECH is structured into four wings, with each wing consisting of highly qualified and experienced personnel who deliver their best to implement its vision. Discover how TECH is transforming the healthcare system of Pakistan through operations covered by its distinct wings.  
       </p>
       <div class="container">
-        <div class="row m-0">
+        <div class="row m-0 col_btns">
         <div class="col-md-6">
           <div class="container mt-3">
-            <button type="button" class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#demo">IT Operations,<br>Infra & Governance
+            <button type="button" class="About_col_btn" data-bs-toggle="collapse" data-bs-target="#demo">IT Operations,<br>Infra & Governance
             </button>
             <div id="demo" class="collapse">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit,
@@ -77,7 +77,7 @@ layout: default
         </div>
         <div class="col-md-6">
           <div class="container mt-3">
-            <button type="button" class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#demo1">Simple collapsible</button>
+            <button type="button" class="About_col_btn" data-bs-toggle="collapse" data-bs-target="#demo1">Software Development</button>
             <div id="demo1" class="collapse">
              IT Operations, Infra & Governance
             </div>
@@ -85,7 +85,7 @@ layout: default
         </div>
         <div class="col-md-6">
           <div class="container mt-3">
-            <button type="button" class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#demo2">Simple collapsible</button>
+            <button type="button" class="About_col_btn" data-bs-toggle="collapse" data-bs-target="#demo2">HR, Administration & Procurement</button>
             <div id="demo2" class="collapse">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit,
               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -95,7 +95,7 @@ layout: default
         </div>
         <div class="col-md-6">
           <div class="container mt-3">
-            <button type="button" class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#demo3">Simple collapsible</button>
+            <button type="button" class="About_col_btn" data-bs-toggle="collapse" data-bs-target="#demo3">Business Analysis & Data Science</button>
             <div id="demo3" class="collapse">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit,
               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,

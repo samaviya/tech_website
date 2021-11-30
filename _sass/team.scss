@@ -10,6 +10,14 @@
 .align_text{
     text-align: left;
 }
+.cards_Conainer a{
+    text-decoration: none;
+    color: #4F4F4F;
+}
+.cards_Conainer a:hover{
+    text-decoration: none;
+    color: white;
+}
 .cards_Conainer .Card_box{
     border: 1px solid transparent;
     background-color: #F1FFD8;

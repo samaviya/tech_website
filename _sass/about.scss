@@ -41,8 +41,30 @@ margin-top: 15px!important;
 .Organogram_Div{
   text-align: left;
 }
+@media (max-width: 1000px) { 
+	.col_btns{
+display: inline-block;
+	}
+}
 
-
+.About_col_btn{
+	color: white;
+    background-color: #668B22;
+    border-color: transparent;
+    font-size: 13px;
+    min-height: 70px;
+    min-width: 170px;
+	border-radius: 15px;
+}
+.About_col_btn:focus{
+	color: black;
+    background-color: #C0E778;
+    border-color: transparent;
+    font-size: 13px;
+    min-height: 70px;
+    min-width: 170px;
+	border-radius: 15px;
+}
 
 
 
@@ -129,9 +151,7 @@ ul, #myUL {
 
 /* Generic styling */
 
-body{
-	background: #F5EEC9;	
-}
+
 
 .Ocontent{
 	width: 100%;
