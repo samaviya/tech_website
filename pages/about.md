@@ -3,10 +3,11 @@ permalink: /about
 title: NIH Tech
 layout: default
 ---
+
 {% for item in site.collections.gallerypics %}
 <img src={{item.4.png}}></img>
 {% endfor %}
- <div class="About_us_main">
+ <div class="About_us_main" style="margin-top: 60px;">
       <div class="container">
         <div class="row">
           <div class="col-md-6 About_us">
@@ -17,12 +18,12 @@ layout: default
               Transformation & Excellence Centre for Health (TECH) has been functioning as a fundamental and 
               significant component of the National Institute of Health.It was inaugurated by the Special Assistant 
               to the Prime Minister on National Health Services, Regulations and Coordination, Dr Faisal Sultan in February
-               2021. It is involved in transforming the technical aspects of public health-related activities to improve the
-                healthcare system in Pakistan.TECH aims to drive the digital transformation of the healthcare system and 
-                services within Pakistan. It emphasizes to  guide, support,develop and deliver IT-centric healthcare projects
-                 in collaboration with the Ministry of National Health Services, in order to  facilitate international and
-                  regional collaborations, seek technical assistance, and participate in global disease control more
-                   effectively, thereby strengthening the vision & mission of NIH.
+              2021. It is involved in transforming the technical aspects of public health-related activities to improve the
+              healthcare system in Pakistan.TECH aims to drive the digital transformation of the healthcare system and 
+              services within Pakistan. It emphasizes to  guide, support,develop and deliver IT-centric healthcare projects
+              in collaboration with the Ministry of National Health Services, in order to  facilitate international and
+              regional collaborations, seek technical assistance, and participate in global disease control more
+              effectively, thereby strengthening the vision & mission of NIH.
             </p>
           </div>
           <div class="col-md-6 About_us_Img">
@@ -30,7 +31,6 @@ layout: default
           </div>
         </div>
         </div>
-
         <div class="container Doted_image">
           <img src="/assets/images/doted.png">
         </div>
@@ -51,8 +51,6 @@ layout: default
             </div>
         </div>
         </div>
-
-
 <div class="container Structure_div mt-5">
   <div class="row m-0">
     <div class="col-md-6">
@@ -105,7 +103,6 @@ layout: default
         </div>
       </div>
       </div>
-      
     </div>
     <div class="col-md-6">
       <img src="/assets/images/7.png" width="100%" height="300px">
@@ -116,74 +113,51 @@ layout: default
 <div class="container Organogram_Div">
   <h2>Organization</h2>
   <p>
-    TECH is structured into four wings, with each wing consisting of highly qualified and experienced personnel<br>
-    who deliver their best to implement its vision. Discover how TECH is transforming the healthcare system of<br>
-     Pakistan through operations covered by its distinct wings.
-
+    TECH is structured into four wings, with each wing consisting of highly qualified and experienced personnel <br>
+    who deliver their best to implement its vision. Discover how TECH is transforming the healthcare system of <br>
+    Pakistan through operations covered by its distinct wings.
   </p>
 </div>
 
-
-
-
-<!-- <div class="container">
-<div class="container_organogram">
-<ul id="myUL">
-  <li>
-  <span class="caret" style="display:flex">
-  <img src="/assets/images/slide1.png">
-  <div style="height:1px; width:150px; border:1px solid rgba(118, 161, 38, 0.5); text-align:center; margin-top:45px;" class="text-center"></div>
-  </span>
-    <ul class="nested">
-      <li style="margin-top: -96px; margin-left: 215px;">
-      <span class="caret" style="display:flex">
-        <img src="/assets/images/slide1.png">
-        <div style="height:1px; width:150px; border:1px solid rgba(118, 161, 38, 0.5); text-align:center; margin-top:45px;" class="text-center"></div>
-      </span>
-        <ul class="nested" style="margin-top: -95px; margin-left: 215px;">
-          <li>
-            <span class="caret mt-4">
-            <img src="/assets/images/slide1.png">
-            </span>
-          </li>
-          <li>
-            <span class="caret mt-4">
-            <img src="/assets/images/slide1.png" style="margin-top:10px">
-            </span>
-          </li>
-          <li>
-            <span class="caret mt-4">
-            <img src="/assets/images/slide1.png" style="margin-top:10px">
-            </span>
-          </li>
-        </ul>
-      </li>  
-    </ul>
-  </li>
-</ul>
-</div>
-</div>
+<div class="container organogram">
+  <figure>
+    <object class="line1" data="/assets/images/organogram-line-horizontal.svg"></object>
+    <object class="line2" data="/assets/images/organogram-line-horizontal.svg"></object>
+    <object class="line3" data="/assets/images/organogram-line-horizontal.svg"></object>
+    <object class="line4" data="/assets/images/organogram-line-vertical.svg"></object>
+    <object class="line5" data="/assets/images/organogram-line-horizontal.svg"></object>
+    <object class="line6" data="/assets/images/organogram-line-horizontal.svg"></object>
+    <object class="line7" data="/assets/images/organogram-line-horizontal.svg"></object>
+    <div class="organogram-flex">
+      <div class="img-contain-0">
+        <div class="img"></div>
+        <p class="label">Executive Director <br> <span style="padding-left: 60px;">(1)</span></p>
+      </div>
+      <div class="img-contain-1">
+        <div class="img"></div>
+        <p class="label">Cheif information officer <br> <span style="padding-left: 80px;"> (4)</span> </p>
+      </div>
+      <div class="flex-teamlead">
+        <div class="img-contain-2">
+          <div class="img"></div>
+          <p class="label">Team Lead</p>
+        </div>
+        <div class="img-contain-all">
+          <div class="img"></div>
+          <p class="label">Business Lead</p>
+        </div>
+        <div class="img-contain-all">
+          <div class="img"></div>
+          <p class="label">HR Lead</p>
+        </div>
+        <div class="img-contain-all">
+          <div class="img"></div>
+          <p class="label">Software Lead</p>
+        </div>
+      </div>
     </div>
-<script>
-var toggler = document.getElementsByClassName("caret");
-var i;
-
-for (i = 0; i < toggler.length; i++) {
-  toggler[i].addEventListener("click", function() {
-    this.parentElement.querySelector(".nested").classList.toggle("active");
-    this.classList.toggle("caret-down");
-  });
-}
-</script> -->
-
-
-
-<!-- ===========dummy organogram in html=========== -->
-<div class="Ocontent" style="margin-bottom:300px;">
-  
-  <figure class="org-chart cf">
-    <ul class="administration">
-      <li>					
+    <!-- <ul class="administration">
+      <li>
         <ul class="director">
           <li>
             <a href="#"><span><img src="/assets/images/slide1.png" width="100px" height="100px"></span></a>
@@ -208,8 +182,8 @@ for (i = 0; i < toggler.length; i++) {
               </li>
             </ul>
           </li>
-        </ul>	
+        </ul>
       </li>
-    </ul>			
+    </ul> -->
   </figure>
 </div>

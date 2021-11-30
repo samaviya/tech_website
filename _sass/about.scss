@@ -32,24 +32,162 @@
   height: 200px;
 }
 .round_images p{
-margin-top: 15px!important;
+	margin-top: 15px!important;
 }
 
 .Structure_div{
   text-align: left;
 }
+
+.organogram {
+	figure {
+		position: relative;
+		object.line1 {
+			width: 200px;
+			position: absolute;
+			top: 45px;
+			left: 140px;
+		}
+		object.line2 {
+			width: 192px;
+			position: absolute;
+			top: 45px;
+			left: 540px;
+		}
+		object.line3 {
+			width: 190px;
+			position: absolute;
+			top: 45px;
+			left: 717px;
+		}
+		object.line4 {
+			width: 4px;
+			height: 501px;
+			position: absolute;
+			top: 48px;
+			left: 717px;
+		}
+		object.line5 {
+			width: 191px;
+			position: absolute;
+			top: 212px;
+			left: 717px;
+		}
+		object.line6 {
+			width: 191px;
+			position: absolute;
+			top: 378px;
+			left: 717px;
+		}
+		object.line7 {
+			width: 191px;
+			position: absolute;
+			top: 546px;
+			left: 717px;
+		}
+	}
+}
+
+.organogram-flex {
+	display: flex;
+	justify-content: space-between;
+	padding: 0px 0px;
+	.img-contain-0 {
+		flex: 1;
+		.img {
+			border-radius: 50%;
+			width: 80px;
+			height: 80px;
+			background: url("/assets/images/Maj.GenAamer Ikram.jpeg");
+			background-size:204%;
+  		background-position: 120px, 0px;
+			filter: drop-shadow(4px 4px 50px rgba(0, 0, 0, 0.25));
+			margin-left: 20px;
+		}
+		.label {
+			margin-top: 10px;
+			font-style: normal;
+			font-weight: normal;
+			line-height: 26px;
+			text-align: left;
+			color: #4F4F4F;
+		}
+	}
+
+	.flex-teamlead {
+		flex: 2;
+	}
+
+	.img-contain-1 {
+		flex: 1;
+		.img {
+			border-radius: 50%;
+			width: 80px;
+			height: 80px;
+			background: url("/assets/images/muhammad_khan_720.png");
+			background-size:204%;
+  		background-position: 130px, 0px;
+			filter: drop-shadow(4px 4px 50px rgba(0, 0, 0, 0.25));
+			margin-left: 50px;
+		}
+		.label {
+			margin-top: 10px;
+			font-style: normal;
+			font-weight: normal;
+			line-height: 26px;
+			text-align: left;
+			color: #4F4F4F;
+		}
+	}
+
+	.img-contain-2 {
+		.img {
+			border-radius: 50%;
+			width: 80px;
+			height: 80px;
+			background: #C4C4C4;
+			background-size:204%;
+			filter: drop-shadow(4px 4px 50px rgba(0, 0, 0, 0.25));
+			margin: auto;
+		}
+		.label {
+			margin-top: 10px;
+			font-style: normal;
+			font-weight: normal;
+			line-height: 26px;
+			text-align: center;
+			color: #4F4F4F;
+		}
+	}
+
+	.img-contain-all {
+		margin-top: 50px;
+		.img {
+			border-radius: 50%;
+			width: 80px;
+			height: 80px;
+			background: #C4C4C4;
+			background-size:204%;
+			filter: drop-shadow(4px 4px 50px rgba(0, 0, 0, 0.25));
+			margin: auto;
+		}
+		.label {
+			margin-top: 10px;
+			font-style: normal;
+			font-weight: normal;
+			line-height: 26px;
+			text-align: center;
+			color: #4F4F4F;
+		}
+	}
+}
+
 .Organogram_Div{
+	margin-top: 50px;
+	margin-bottom: 30px;
   text-align: left;
 }
 
-
-
-
-
-// ==============organogram===============
-.container_organogram{
-  text-align: left;
-}
 ul, #myUL {
   list-style-type: none;
 }
@@ -98,104 +236,6 @@ ul, #myUL {
   display: block;
 }
 
-
-// ============dummy organogram=================
-
-
-*{
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-	position: relative;
-}
-
-.cf:before,
-.cf:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
-}
-
-.cf:after {
-    clear: both;
-}
-
-/**
- * For IE 6/7 only
- * Include this rule to trigger hasLayout and contain floats.
- */
-.cf {
-    *zoom: 1;
-}
-
-/* Generic styling */
-
-body{
-	background: #F5EEC9;	
-}
-
-.Ocontent{
-	width: 100%;
-	max-width: 1142px;
-	margin: 0 auto;
-	padding: 0 20px;
-}
-
-.Ocontent a:focus{
-	outline: 2px dashed #f7f7f7;
-}
-
-@media screen and (max-width: 767px){
-	.Ocontent{
-		padding: 0 20px;
-	}	
-}
-
-.Ocontent ul{
-	padding: 0;
-	margin: 0;
-	list-style: none;		
-}
-
-.Ocontent ul a{
-	display: block;
-	background: #ccc;
-	border: 4px solid red;
-	text-align: center;
-	overflow: hidden;
-	font-size: .7em;
-	text-decoration: none;
-	font-weight: bold;
-	color: #333;
-	height: 70px;
-	margin-bottom: -26px;
-	box-shadow: 4px 4px 9px -4px rgba(0,0,0,0.4);
-	-webkit-transition: all linear .1s;
-	-moz-transition: all linear .1s;
-	transition: all linear .1s;
-}
-
-@media print {
-  .Ocontent ul a{
-        border: 4px solid green;
-    }
-}
-
-@media screen and (max-width: 767px){
-	.Ocontent ul a{
-		font-size: 1em;
-	}
-}
-
-
-.Ocontent ul a span{
-	// top: 50%;
-	// margin-top: -0.7em;
-	display: block;
-}
-
-/*
- 
- */
 
 .administration > li > a{
 	margin-bottom: 25px;
