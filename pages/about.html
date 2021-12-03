@@ -7,24 +7,27 @@ layout: default
 {% for item in site.collections.gallerypics %}
 <img src={{item.4.png}}></img>
 {% endfor %}
- <div class="About_us_main" style="margin-top: 60px;">
-      <div class="container">
-        <div class="row">
+<div class="Heading_Main">
+  <h2>
+    Who Are We?
+  </h2>
+</div>
+ <div class="About_us_main" style="margin-top: 30px;">
+      <div class="">
+      
+        <div class="row" style="margin:0px; padding:0px">
           <div class="col-md-6 About_us">
-            <h2>
-              Who Are We?
-            </h2>
-            <p>
+              <p>
               Transformation & Excellence Centre for Health (TECH) has been functioning as a fundamental and 
-              significant component of the National Institute of Health.It was inaugurated by the Special Assistant 
-              to the Prime Minister on National Health Services, Regulations and Coordination, Dr Faisal Sultan in February
-              2021. It is involved in transforming the technical aspects of public health-related activities to improve the
-              healthcare system in Pakistan.TECH aims to drive the digital transformation of the healthcare system and 
-              services within Pakistan. It emphasizes to  guide, support,develop and deliver IT-centric healthcare projects
-              in collaboration with the Ministry of National Health Services, in order to  facilitate international and
-              regional collaborations, seek technical assistance, and participate in global disease control more
-              effectively, thereby strengthening the vision & mission of NIH.
-            </p>
+              significant component of the National Institute of Health.
+              </p>
+              <p>
+              It was inaugurated by the Special Assistant to the Prime Minister on National Health Services, Regulations and Coordination, Dr Faisal Sultan in February 2021. It is involved in transforming the technical aspects of public health-related activities to improve the healthcare system in Pakistan.
+              </p>
+              <p>
+              TECH aims to drive the digital transformation of the healthcare system and 
+              services within Pakistan.It emphasizes to  guide, support,develop and deliver IT-centric healthcare projects in collaboration with the Ministry of National Health Services, in order to  facilitate international and regional collaborations, seek technical assistance, and participate in global disease control more effectively, thereby strengthening the vision & mission of NIH.
+              </p>
           </div>
           <div class="col-md-6 About_us_Img">
             <img src="/assets/images/aboutus.png" width="100%">
@@ -51,22 +54,23 @@ layout: default
             </div>
         </div>
         </div>
-<div class="container Structure_div mt-5">
-  <div class="row m-0">
-    <div class="col-md-6">
+<div class="Structure_div mt-4">
       <h2>
         Our Structure
       </h2>
+  <div class="row m-0">
+    <div class="col-md-6 M_P">
       <p>
         TECH is structured into four wings, with each wing consisting of highly qualified and experienced personnel who deliver their best to implement its vision. Discover how TECH is transforming the healthcare system of Pakistan through operations covered by its distinct wings.  
       </p>
-      <div class="container">
+      <div class="">
         <div class="row m-0">
         <div class="col-md-6">
-          <div class="container mt-3">
-            <button type="button" class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#demo">IT Operations,<br>Infra & Governance
+          <div class=" mt-3">
+            <button type="button" class="Colaps_btn" data-bs-toggle="collapse" data-bs-target="#demo">
+            IT Operations,<br>Infra & Governance
             </button>
-            <div id="demo" class="collapse">
+            <div id="demo" class="collapse COL_pad">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit,
               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
               quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -74,17 +78,20 @@ layout: default
           </div>
         </div>
         <div class="col-md-6">
-          <div class="container mt-3">
-            <button type="button" class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#demo1">Simple collapsible</button>
-            <div id="demo1" class="collapse">
+          <div class=" mt-3">
+            <button type="button" class="Colaps_btn" data-bs-toggle="collapse" data-bs-target="#demo1">
+            Business Analysis<br> & Data Science</button>
+            <div id="demo1" class="collapse COL_pad">
              IT Operations, Infra & Governance
             </div>
           </div>
         </div>
         <div class="col-md-6">
-          <div class="container mt-3">
-            <button type="button" class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#demo2">Simple collapsible</button>
-            <div id="demo2" class="collapse">
+          <div class=" mt-3">
+            <button type="button" class="Colaps_btn" data-bs-toggle="collapse" data-bs-target="#demo2">
+            Software Development
+            </button>
+            <div id="demo2" class="collapse COL_pad">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit,
               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
               quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -92,9 +99,11 @@ layout: default
           </div>
         </div>
         <div class="col-md-6">
-          <div class="container mt-3">
-            <button type="button" class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#demo3">Simple collapsible</button>
-            <div id="demo3" class="collapse">
+          <div class=" mt-3">
+            <button type="button" class="Colaps_btn" data-bs-toggle="collapse" data-bs-target="#demo3">
+            HR, Administration <br>& Procurement
+            </button>
+            <div id="demo3" class="collapse COL_pad">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit,
               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
               quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -104,13 +113,13 @@ layout: default
       </div>
       </div>
     </div>
-    <div class="col-md-6">
-      <img src="/assets/images/7.png" width="100%" height="300px">
+    <div class="col-md-6 text-center">
+      <img src="/assets/images/7.png" max-width="500px" height="300px">
     </div>
   </div>
 </div>
 
-<div class="container Organogram_Div">
+<div class=" Organogram_Div">
   <h2>Organization</h2>
   <p>
     TECH is structured into four wings, with each wing consisting of highly qualified and experienced personnel <br>
@@ -118,9 +127,17 @@ layout: default
     Pakistan through operations covered by its distinct wings.
   </p>
 </div>
-
+<!-- <div>
+ <img src="/assets/images/organo.png" width="100%">
+</div> -->
 <div class="container organogram">
-  <figure>
+<div class="Organogram_img">
+ <img src="/assets/images/organo.png" width="100%">
+</div>
+<div class="Organogram_img1">
+ <img src="/assets/images/organo_mobile.png" width="100%">
+</div>
+  <!-- <figure>
     <object class="line1" data="/assets/images/organogram-line-horizontal.svg"></object>
     <object class="line2" data="/assets/images/organogram-line-horizontal.svg"></object>
     <object class="line3" data="/assets/images/organogram-line-horizontal.svg"></object>
@@ -156,34 +173,6 @@ layout: default
         </div>
       </div>
     </div>
-    <!-- <ul class="administration">
-      <li>
-        <ul class="director">
-          <li>
-            <a href="#"><span><img src="/assets/images/slide1.png" width="100px" height="100px"></span></a>
-            <ul class="subdirector">
-            </ul>
-            <ul class="departments cf">								
-              <li><a href="#"><span><img src="/assets/images/slide1.png" width="100px" height="100px"></span></a></li>
-              <li class="department dep-a">
-                <a href="#"><span>Department A</span></a>
-              </li>
-              <li class="department dep-b">
-                <a href="#"><span>Department B</span></a>
-              </li>
-              <li class="department dep-c">
-                <a href="#"><span>Department C</span></a>
-              </li>
-              <li class="department dep-d">
-                <a href="#"><span>Department D</span></a>
-              </li>
-              <li class="department dep-e">
-                <a href="#"><span>Department E</span></a>
-              </li>
-            </ul>
-          </li>
-        </ul>
-      </li>
-    </ul> -->
-  </figure>
+  </figure> -->
 </div>
+

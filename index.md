@@ -13,8 +13,8 @@ layout: default
     </div>
   </div>
   <div class="container">
-    <h2>Transformation & Excellence Center for Health - TECH</h2>
-    <p class="mb-1" style="font-size: 1.2rem; font-weight: 400;">An initiative of the National Institute of Health</p>
+    <h2>Transformation & Excellence Centre for Health - TECH</h2>
+    <p class="mb-1" style="font-size: 1.2rem; font-weight: 400;">An initiative of the National Institutes of Health</p>
     <!-- carousal -->
     <div id="mainSlideshow" style="box-shadow: 4px 4px 50px 0px #00000040; border-radius: 20px; overflow: hidden;"
       class="carousel slide mb-4" data-bs-ride="carousel">
@@ -66,8 +66,7 @@ layout: default
           <img src="/assets/images/eye.png" alt="Site-logo">
           <svg class="vertical" width="6" height="200" viewBox="0 0 6 278" fill="none"
             xmlns="http://www.w3.org/2000/svg">
-            <path
-              d="M3 278L5.90478 273.01L0.131318 272.99L3 278ZM3.51624 273.502L4.5 1.0018L3.5 0.998194L2.51625 273.498L3.51624 273.502Z"
+            <path d="M3 278L5.90478 273.01L0.131318 272.99L3 278ZM3.51624 273.502L4.5 1.0018L3.5 0.998194L2.51625 273.498L3.51624 273.502Z"
               fill="#A9C96E" />
           </svg>
           <svg class="horizon" width="200" height="6" viewBox="0 0 278 6" fill="none"
@@ -305,14 +304,15 @@ layout: default
     <div class="Message">
       <h3>Message From The Executive Director</h3>
     </div>
-    <div class="card">
+    <div class="col-md-9">
+    <div class="card1">
       <div class="row m-0" style="display: flex;">
         <div class="col-md-2 Message_img">
           <img src="/assets/images/16.png" width="100px" height="100px">
         </div>
         <div class="col-md-9 text_message">
           <p>
-            NIH has been continuously contributing to the health sector of Pakistan and since the development of NIH is
+            NIH has been continuously contributing<br> to the health sector of Pakistan and since the development of NIH is
             working on the production of vaccines, research and development and other training ventures. Recently, NIH
             has established a Transformation and Excellence Center for Health (TECH) in order to provide tech services
             to the public.
@@ -321,23 +321,25 @@ layout: default
         </div>
       </div>
     </div>
+    </div>
+    
   </div>
 
-  <div class="container mt-5">
+  <div class="container mt-5 mb-5">
     <div class="row">
       <div class="col-md-2"></div>
       <div class="col-md-10">
         <div class="Message">
           <h3>Message From The Chief Information Officer</h3>
         </div>
-        <div class="card">
+        <div class="card1">
           <div class="row m-0" style="display: flex;">
             <div class="col-md-2 Message_img">
               <img src="/assets/images/16.png" width="100px" height="100px">
             </div>
             <div class="col-md-9 text_message">
               <p>
-                I feel very privileged to be writing this message as a Chief Information Officer. At TECH NIH we have
+                I feel very privileged to be writing this message <br>as a Chief Information Officer. At TECH NIH we have
                 earned a reputation for helping our digital health projects to transform the way in which the public can
                 easily get access to the services provided by NIH through different mediums.
               </p>
