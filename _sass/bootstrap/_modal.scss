@@ -87,7 +87,9 @@
 .modal-backdrop {
   @include overlay-backdrop($zindex-modal-backdrop, $modal-backdrop-bg, $modal-backdrop-opacity);
 }
-
+// .modal-backdrop.show {
+//   opacity: 0!important; 
+// }
 // Modal header
 // Top section of the modal w/ title and dismiss
 .modal-header {

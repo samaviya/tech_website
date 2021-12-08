@@ -247,7 +247,7 @@ layout: default
         <object class="ellipse" data="/assets/images/ellipse.svg" width="1200" height="1200"></object>
         <object class="center-abs" data="/assets/images/leaf-left.png" width="92" height="92"></object>
         <div class="image-container-process-1" data-bs-toggle="tooltip" data-bs-placement="bottom"
-          title="Eversince it’s establishment in late 2020, TECH has played a vital role to fill the gaps in digital transformations within healthcare in PakistanEversince it’s establishment in late 2020, TECH has played a vital role to fill the gaps in digital transformations within healthcare in Pakistan">
+          title="<h4>Data Analytics</h4><br>Provide state of the analytics for efficient data driven decision making">
           <div class="image-container-process">
             <img src="/assets/images/process1.png" alt="process-diagram">
             <object class="arrow-1" data="/assets/images/arrow.svg" width="92" height="92"></object>
@@ -255,29 +255,29 @@ layout: default
           </div>
         </div>
         <div class="image-container-process-2" data-bs-toggle="tooltip" data-bs-placement="bottom"
-          title="Eversince it’s establishment in late 2020, TECH has played a vital role to fill the gaps in digital transformations within healthcare in PakistanEversince it’s establishment in late 2020, TECH has played a vital role to fill the gaps in digital transformations within healthcare in Pakistan">
+          title=" <h4>Digital Health</h4><br>Provide technical expertise in formaulation of Digital Health Policy &  strategize digital health transformation implementation.">
           <div class="image-container-process">
             <img src="/assets/images/process2.png" alt="process-diagram">
-            <p>Developing digital products & services</p>
+            <p>     Digital Health</p>
           </div>
           <object class="arrow-2" data="/assets/images/arrow.svg" width="92" height="92"></object>
         </div>
         <div class="image-container-process-3" data-bs-toggle="tooltip" data-html="true" data-bs-placement="bottom"
           title="
             <div>
-              <h4>Policy Making</h4>
-              Eversince it’s establishment in late 2020, TECH has played a vital role to fill the gaps in digital transformations within healthcare in PakistanEversince it’s establishment in late 2020, TECH has played a vital role to fill the gaps in digital transformations within healthcare in Pakistan
+              <h4>Integrations</h4>
+              <br>Establish Standardized data streams and linkages between various Health Information System
             </div>
           ">
           <div class="image-container-process">
             <img src="/assets/images/process3.png" style="height:60px; margin: 18px auto 2px auto;"
               alt="process-diagram">
-            <p>Policy making</p>
+            <p>Integrations</p>
           </div>
           <object class="arrow-3" data="/assets/images/arrow.svg" width="92" height="92"></object>
         </div>
         <div class="image-container-process-4" data-bs-toggle="tooltip" data-bs-placement="bottom"
-          title="Eversince it’s establishment in late 2020, TECH has played a vital role to fill the gaps in digital transformations within healthcare in PakistanEversince it’s establishment in late 2020, TECH has played a vital role to fill the gaps in digital transformations within healthcare in Pakistan">
+          title="Collabrations with public and private sector">
           <div class="image-container-process">
             <img src="/assets/images/process4.png" style="margin-top: 20px;" alt="process-diagram">
             <p>Data-driven <br /> decision making</p>
@@ -287,13 +287,13 @@ layout: default
         <div class="image-container-process-5" data-bs-toggle="tooltip" data-html="true" data-bs-placement="bottom"
           title="
             <div>
-              <h4>Creating infrastructure</h4>
-              Eversince it’s establishment in late 2020, TECH has played a vital role to fill the gaps in digital transformations within healthcare in PakistanEversince it’s establishment in late 2020, TECH has played a vital role to fill the gaps in digital transformations within healthcare in Pakistan
+              <h4>National Health<br>Data Center</h4>
+             Establish & maintain National Health Data Center. The National Health Data Center shall function as the national central repository for all aspects of      health information and data.<br>
             </div>
           ">
           <div class="image-container-process">
             <img src="/assets/images/process5.png" alt="process-diagram">
-            <p>Creating infrastructure</p>
+            <p>National Health<br>Data Center</p>
           </div>
           <object class="arrow-5" data="/assets/images/arrow.svg" width="92" height="92"></object>
         </div>
