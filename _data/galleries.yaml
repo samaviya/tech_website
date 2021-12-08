@@ -2,3 +2,6 @@ docs_list_title: Galleries
 options:
 - title: Gallery 1
   url: /gallery1
+- title: Gallery 1
+  imgpath: /assets/images/aboutus.png
+  url: /gallery1

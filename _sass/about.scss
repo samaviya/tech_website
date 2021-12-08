@@ -114,7 +114,27 @@
 		}
 	}
 }
-
+.News_main{
+	padding: 10px 50px 10px 50px;
+}
+.News_Para{
+	text-align: left;
+	min-height: 300px;
+	padding: 10px 0px 0px 15px;
+	background-color: transparent;
+	
+}
+.News_Para p{
+	font-size: 19px;
+  }
+  .news_Img img{
+	border-radius: 15px;
+	height: 420px;
+	min-height: 320px;
+	// padding: 0px 0px 0px 0px;
+	background-color: transparent;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  }
 .organogram-flex {
 	display: flex;
 	justify-content: space-between;
