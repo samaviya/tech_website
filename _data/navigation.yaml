@@ -1,14 +1,14 @@
 docs_list_title: Site Links
 options:
-- title: Home
-  url: /
-- title: About Us
-  url: /about
-- title: News
-  url: /news
-- title: Gallery
-  url: /gallery
-- title: Team
-  url: /team
-- title: Contact Us
-  url: /contact
+  - title: Home
+    url: /
+  - title: About Us
+    url: /about.html
+  - title: News
+    url: /news.html
+  - title: Gallery
+    url: /gallery.html
+  - title: Team
+    url: /team.html
+  - title: Contact Us
+    url: /contact.html
