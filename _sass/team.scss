@@ -45,9 +45,14 @@
   object-fit: cover;
 }
 
-.teamlink {
+.teamlink a {
   text-decoration: none;
+  color: var(--darkText);
 }
+
+.teamlink a h3 {
+    text-decoration: none;
+  }
 
 @media (max-width: 991px) {
   .about-text {
@@ -162,7 +167,7 @@
   position: relative;
 }
 .gray-bg {
-  background-color: #ebf4fa;
+  // background-color: #ebf4fa;
 }
 .px-btn.theme {
   background: #a9c96e;

@@ -3,15 +3,15 @@ options:
 - title: Home
   url: /
 - title: About Us
-  url: /about
+  url: /about.html
 - title: News
-  url: /news
+  url: /news.html
 - title: Gallery
-  url: /gallery
+  url: /gallery.html
 - title: Team
-  url: /team
+  url: /team.html
 - title: Contact Us
-  url: /contact
+  url: /contact.html
 techNIH:
 - text: TECH Building F block,
 - text: National institute of Health (NIH),
@@ -19,16 +19,20 @@ techNIH:
 - text: Islamabad, Pakistan
   url: /
 getInTouch:
-- text: info@nih.org
+- text: info@nihtech.com
   icon: far fa-envelope
-- text: +92-123-12312311
+- text: 051-8905666
   icon: fas fa-phone-alt
 connect:
 - text: facebook
   icon: fab fa-facebook
+  url: https://www.facebook.com/TECHNIH/
 - text: twitter
   icon: fab fa-twitter
+  url: https://twitter.com/nih_tech/
 - text: instagram
   icon: fab fa-instagram
+  url: www.Instagram.com/technihorg/
 - text: linkedin
   icon: fab fa-linkedin
+  url: https://www.linkedin.com/showcase/tech-nih/

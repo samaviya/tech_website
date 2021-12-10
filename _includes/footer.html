@@ -28,7 +28,7 @@
       <h3>Connect</h3>
       <div style="padding: 0;">
         {% for item in site.data.footerNavigation.connect %}
-        <span style="color: #668b22;"> <i class="{{ item.icon }}"></i></span>
+        <a href="{{item.url}}"><span style="color: #668b22;"> <i class="{{ item.icon }}"></i></span></a>
         {% endfor %} 
       </div>
       <div style="position: relative;">

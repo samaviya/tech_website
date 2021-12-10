@@ -240,7 +240,7 @@ layout: default
   <!-- Our process -->
   <div class="our-process-section">
     <div class="container-lg" style="max-width: 1200px;">
-      <h2>Our Process</h2>
+      <h2>Our Services</h2>
       <p>Eversince it’s establishment in late 2020, TECH has played a vital role to <br /> fill the gaps in digital
         transformations within healthcare in Pakistan</p>
       <div class="process-diagram">
@@ -250,7 +250,7 @@ layout: default
           title="<h4>Data Analytics</h4><br>Provide state of the analytics for efficient data driven decision making">
           <div class="image-container-process">
             <img src="/assets/images/process1.png" alt="process-diagram">
-            <object class="arrow-1" data="/assets/images/arrow.svg" width="92" height="92"></object>
+            <object width="92" height="92"></object>
             <p> Data analytics</p>
           </div>
         </div>
@@ -260,7 +260,7 @@ layout: default
             <img src="/assets/images/process2.png" alt="process-diagram">
             <p>     Digital Health</p>
           </div>
-          <object class="arrow-2" data="/assets/images/arrow.svg" width="92" height="92"></object>
+          <object width="92" height="92"></object>
         </div>
         <div class="image-container-process-3" data-bs-toggle="tooltip" data-html="true" data-bs-placement="bottom"
           title="
@@ -274,15 +274,17 @@ layout: default
               alt="process-diagram">
             <p>Integrations</p>
           </div>
-          <object class="arrow-3" data="/assets/images/arrow.svg" width="92" height="92"></object>
+          <object width="92" height="92"></object>
         </div>
         <div class="image-container-process-4" data-bs-toggle="tooltip" data-bs-placement="bottom"
-          title="Collabrations with public and private sector">
+          title="
+          <h4>Data-driven decision making</h4> <br>
+          Collabrations with public and private sector">
           <div class="image-container-process">
             <img src="/assets/images/process4.png" style="margin-top: 20px;" alt="process-diagram">
             <p>Data-driven <br /> decision making</p>
           </div>
-          <object class="arrow-4" data="/assets/images/arrow.svg" width="92" height="92"></object>
+          <object width="92" height="92"></object>
         </div>
         <div class="image-container-process-5" data-bs-toggle="tooltip" data-html="true" data-bs-placement="bottom"
           title="
@@ -295,7 +297,7 @@ layout: default
             <img src="/assets/images/process5.png" alt="process-diagram">
             <p>National Health<br>Data Center</p>
           </div>
-          <object class="arrow-5" data="/assets/images/arrow.svg" width="92" height="92"></object>
+          <object  width="92" height="92"></object>
         </div>
       </div>
     </div>
@@ -308,14 +310,19 @@ layout: default
     <div class="card1">
       <div class="row m-0" style="display: flex;">
         <div class="col-md-2 Message_img">
-          <img src="/assets/images/16.png" width="100px" height="100px">
+          <img src="/assets/images/Maj.GenAamer Ikram.jpeg" width="100px" height="100px">
         </div>
         <div class="col-md-9 text_message">
           <p>
-            NIH has been continuously contributing<br> to the health sector of Pakistan and since the development of NIH is
-            working on the production of vaccines, research and development and other training ventures. Recently, NIH
-            has established a Transformation and Excellence Center for Health (TECH) in order to provide tech services
-            to the public.
+            It gives me a feeling of extreme honour and pleasure to head the National Institutes of Health, Islamabad. Here we aim, and so strive for excellence with the following two paradigms in practice:
+            <br><br>To Build
+            It begins with our people. Our talented team is carefully built with attention to values and skills that align with our culture to lead us through developmental growth. We develop our strengths through new products, new skills and new ideas. We build our capabilities through more efficient processes with substantial and compelling compliance of SOPs, more excellent knowledge, and leading technology. 
+
+            <br><br>To be Great
+            Production & Delivery are worthy ends but the means to those ends matter. We have built this Organization where compliance, safety, keenness and sustainability are rooted in our definition of working since our serving through decades. We set the bar high and then, throughout the Organization, strive to push it higher. 
+
+            “Being exceptionally skilled takes great people empowered to have and share great ideas.
+
           </p>
           <h4>Major General Aamer Ikram</h4>
         </div>
@@ -335,7 +342,7 @@ layout: default
         <div class="card1">
           <div class="row m-0" style="display: flex;">
             <div class="col-md-2 Message_img">
-              <img src="/assets/images/16.png" width="100px" height="100px">
+              <img src="/assets/images/adeel.jpg" width="100px" height="100px">
             </div>
             <div class="col-md-9 text_message">
               <p>

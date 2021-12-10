@@ -157,7 +157,7 @@ h2 {
   .footer-logo {
     width: 7em;
     position: absolute;
-    left: 67px;
+    // left: 67px;
     // margin-top: 24px;
   }
 }
@@ -886,7 +886,8 @@ h2 {
 }
 .card1 .Message_img img{
  border-radius: 50%;
- border: 1px solid gray;
+ border: 1px solid transparent;
+ object-fit: cover;
 }
 .card1{
   background-color: #F1FFD8;
