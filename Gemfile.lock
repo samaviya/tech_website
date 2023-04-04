@@ -68,15 +68,16 @@ GEM
     terminal-table (2.0.0)
       unicode-display_width (~> 1.1, >= 1.1.1)
     thread_safe (0.3.6)
-    tzinfo (1.2.9)
+    tzinfo (1.2.11)
       thread_safe (~> 0.1)
-    tzinfo-data (1.2021.5)
+    tzinfo-data (1.2023.3)
       tzinfo (>= 1.0.0)
     unicode-display_width (1.8.0)
     wdm (0.1.1)
     webrick (1.7.0)
 
 PLATFORMS
+  ruby
   x64-mingw32
   x86_64-darwin-21
   x86_64-linux-musl
@@ -85,10 +86,10 @@ DEPENDENCIES
   jekyll (~> 4.2.1)
   jekyll-feed (~> 0.12)
   minima (~> 2.5)
-  tzinfo (~> 1.2)
+  tzinfo (~> 1.2, >= 1.2.10)
   tzinfo-data
   wdm (~> 0.1.1)
   webrick (~> 1.7)
 
 BUNDLED WITH
-   2.2.30
+   2.1.4
